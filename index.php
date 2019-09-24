@@ -1,20 +1,9 @@
 <?php
+// ESTE FITXER ÉS EL CONTROLADOR
 
-// ARRAYS/VECTORS
+// MODEL
+require 'models/llista_classe.php';
 
-$classe = [
-    'Sergi',
-    'Karim',
-    'Joan',
-    'Carlos',
-    'Genis',
-    'Ayram',
-    'Gerard',
-    'Dídac'
-];
-//require 'model.php';
-
-// include i require són però require peta si fitxer no existeix
 // VISTA
 require 'index.template.php';
 
