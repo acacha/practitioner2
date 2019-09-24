@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><?= $person['fullname'] ?></h1>
+    <h1><?= $task['name'] ?></h1>
     <ul>
-        <li>Nom: <?= $person['name'] ?></li>
-        <li>Cognoms: <?= $person['surname'] ?></li>
-        <li>Email: <?= $person['email'] ?></li>
+        <li>Descripció: <?= $task['description'] ?></li>
+        <li>Completada: 
+            <?= $task['completed'] ? 'Sí' : 'No'; ?>
+        </li>
     </ul>
 </body>
 </html>
