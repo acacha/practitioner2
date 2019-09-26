@@ -1,12 +1,11 @@
 <?php
 // ESTE FITXER ÉS EL CONTROLADOR
 
+// APLICACION PHP MODERNES
+require 'vendor/autoload.php';
+
 // funcions globals / helpers
 require 'helpers.php';
-
-require 'Task.php';
-require 'database/Connection.php';
-require 'database/QueryBuilder.php';
 
 // MODEL
 require 'models/task.php';

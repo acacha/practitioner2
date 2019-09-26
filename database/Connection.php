@@ -6,10 +6,14 @@ class Connection {
         $user = 'debian-sys-maint',
         $password = 'RcGXsSqsnRy6nQn1' ) {
         try {
-            $pdo = new PDO($connection, $user, $password);
+            return new PDO($connection, $user, $password);
+            // return new PDO(
+            //     $config['database.connection'], 
+            //     $config['database.user'], 
+            //     $config['database.password']);
+            
         } catch (PDOException $e) {
             die($e->getMessage());
         }
-        return $pdo;
     }
 }
