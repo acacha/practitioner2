@@ -7,11 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><?= $task['name'] ?></h1>
+    <h1><?= $task->name ?></h1>
     <ul>
-        <li>Descripció: <?= $task['description'] ?></li>
+        <li>Descripció: <?= $task->description ?></li>
         <li>Completada: 
-            <?= $task['completed'] ? 'Sí' : 'No'; ?>
+            <?= $task->completed ? 'Sí' : 'No'; ?>
         </li>
     </ul>
 </body>

@@ -4,12 +4,13 @@
 // funcions globals / helpers
 require 'helpers.php';
 
+require 'Task.php';
+require 'database/Connection.php';
+require 'database/QueryBuilder.php';
+
 // MODEL
 require 'models/task.php';
 
 // VISTA
 require 'index.template.php';
 
-
-// SOLID --> S O L I D
-// O Open-Closed -> Open to Extension Closed to Modification
